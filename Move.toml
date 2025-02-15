@@ -1,0 +1,18 @@
+[package]
+name = 'yush-nft'
+version = '1.0.0'
+author = 'Oleksandr Mykhailenko <armyhaylenko@gmail.com>'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token'
+
+[addresses]
+admin_addr = '0xcc7fec715a029a36c2340037337cacfedcc8461186197c970bd6dfdce9375672'
+#yushchenko_foundation = ''
